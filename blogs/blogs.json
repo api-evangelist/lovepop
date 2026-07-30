@@ -1,0 +1,14 @@
+{
+  "repo": "lovepop",
+  "feeds": [
+    {
+      "source": "https://www.lovepop.com/",
+      "feed_url": "https://www.lovepop.com/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
