@@ -1,7 +1,17 @@
 aid: lovepop
-name: lovepop
-description: lovepop is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Lovepop
+description: >-
+  Lovepop is a Boston-based consumer greeting-card and gifting company, founded
+  in 2014 and known for its intricate laser-cut 3D pop-up cards inspired by
+  Vietnamese "kirigami" paper engineering. The company sells directly to
+  consumers through its Shopify-powered storefront at lovepop.com and through
+  retail partners, offering pop-up greeting cards, gift boxes, flowers, and
+  personalized gifting. Lovepop was accelerated by Techstars and appeared on
+  ABC's Shark Tank. It is tracked in the API Evangelist network as a Techstars
+  portfolio company; as of this pass Lovepop publishes no first-party developer
+  API, SDKs, or developer portal, and its public digital surface is a standard
+  Shopify commerce storefront (including Shopify Customer Account OIDC/OAuth
+  well-known documents served on the domain).
 url: https://raw.githubusercontent.com/api-evangelist/lovepop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.lovepop.com/cdn/shop/files/lovepop-logo.png
 tags:
 - Company
+- Greeting Cards
+- Gifting
+- E-Commerce
+- Retail
+- Consumer Products
+- Shopify
+- Techstars
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://lovepopcards.com/
+  url: https://www.lovepop.com/
+- type: Blog
+  url: https://www.lovepop.com/blogs/news
+- type: Support
+  url: https://www.lovepop.com/pages/contact-us
+- type: SignUp
+  url: https://www.lovepop.com/account/register
+- type: Login
+  url: https://www.lovepop.com/account/login
+- type: TermsOfService
+  url: https://www.lovepop.com/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.lovepop.com/policies/privacy-policy
+- type: WellKnown
+  url: well-known/lovepop-well-known.yml
+- type: DomainSecurity
+  url: security/lovepop-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
