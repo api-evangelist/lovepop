@@ -2,6 +2,27 @@
   "repo": "lovepop",
   "feeds": [
     {
+      "source": "https://www.lovepop.com/blogs/pop-up-cards",
+      "feed_url": "https://www.lovepop.com/blogs/pop-up-cards.atom",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://www.lovepop.com/blogs/pop-up-cards.atom",
+      "feed_url": "https://www.lovepop.com/blogs/pop-up-cards.atom",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.lovepop.com/blogs/news",
+      "feed_url": "https://www.lovepop.com/blogs/news.atom",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
       "source": "https://www.lovepop.com/",
       "feed_url": "https://www.lovepop.com/",
       "title": "",
@@ -10,5 +31,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
